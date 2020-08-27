@@ -2,11 +2,31 @@ nav > ul{
     list-style: none;
     height: 96px;
     margin: 0;
-    padding: 8px;
-    background-color: white;
+    background-color: #ffffff;
+    justify-content: space-evenly;
+}
+nav a:hover{
+    color:#9BAC64 ;
 }
 nav a{
     font-size:20px;
     color: inherit;
     text-decoration: none;
+}
+.flex-nav{
+    margin: auto;
+    display: flex;
+}
+li{
+    padding: 12px 0 0 0;
+    margin: 32px 16px;
+}
+img{
+    margin: auto;
+    display: block;
+}
+.logo{
+    background-color: gray;
+    height:96px;
+    width: 96px;
 }
