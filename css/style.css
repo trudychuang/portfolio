@@ -53,8 +53,7 @@ img{
     padding: 72px 10%;
 }
 .flex-row{
-    position: absolute;
-    width: 960;
+    width: 912px;
     display: flex;
     margin: 40px auto;
     /* justify-content: space-between; */
