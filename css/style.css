@@ -89,7 +89,7 @@ img{
     overflow: hidden;
     background-size: cover;
     box-sizing: border-box;
-    background-image: url(/img/banner-index.png);
+    background-image: url(../img/banner-index.png);
     background-color: #f0f0f0;
     background-repeat: no-repeat;
     background-position: center;
@@ -102,7 +102,7 @@ img{
     overflow: hidden;
     background-size: cover;
     box-sizing: border-box;
-    background-image: url(/img/banner-ga-landingpage.png);
+    background-image: url(../img/banner-ga-landingpage.png);
     background-color: #f0f0f0;
     background-repeat: no-repeat;
     background-position: center;
