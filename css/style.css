@@ -90,7 +90,7 @@ img{
     background-size: cover;
     background-color: #f0f0f0;
     box-sizing: border-box;
-    background-image: url(/img/banner.png);
+    background-image: url(./img/banner.png);
     background-repeat: no-repeat;
     background-position: center;
     /* background-position: center; 讓圖片置中，左右裁切 */
