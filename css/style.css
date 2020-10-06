@@ -90,7 +90,7 @@ img{
     background-size: cover;
     box-sizing: border-box;
     background-image: url(../img/banner-index.png);
-    background-color: #f0f0f0;
+    background-color: #ffffff;
     background-repeat: no-repeat;
     background-position: center;
     /* background-position: center; 讓圖片置中，左右裁切 */
@@ -103,12 +103,66 @@ img{
     background-size: cover;
     box-sizing: border-box;
     background-image: url(../img/banner-ga-landingpage.png);
-    background-color: #f0f0f0;
+    background-color: #ffffff;
     background-repeat: no-repeat;
     background-position: center;
-    /* background-position: center; 讓圖片置中，左右裁切 */
 }
-/* section */
+/* jp-app */
+.banner-box{
+    height: 560px;
+    width: auto;
+    position: relative;
+    z-index: 2;
+}
+.banner-jp-app{
+    margin-top: 96px;
+    max-width:100%;
+    height: 464px;
+    overflow: hidden;
+    background-size: cover;
+    box-sizing: border-box;
+    background-image: url(../img/banner-jp-app.png);
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* section banner */
+.img-animation{
+    width: 337px;
+    height: 289px;
+    position:absolute;
+    bottom: 40px;
+    right: 112px;
+    z-index: 3;
+    animation: updown 2s infinite;
+    -webkit-animation: updown 2s infinite;
+    transition-delay: 0.5s;
+}
+@keyframes updown{
+0%{
+    bottom: 40px;
+}
+50%{
+    bottom: 64px;
+}
+100%{
+    bottom: 40px;
+}
+}
+@-webkit-keyframes updown{
+    0%{
+        bottom: 40px;
+    }
+    50%{
+        bottom: 64px;
+    }
+    100%{
+        bottom: 40px;
+    }
+}
+ 
+
+/* section-index*/
 .work-section{
     height: 1120px;
     width: 1000px;
