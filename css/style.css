@@ -43,6 +43,7 @@ nav{
     display: flex;
     position: fixed;
     background-color:#ffffff;
+    z-index: 4;
 }
 nav > ul{
     list-style: none;
@@ -57,6 +58,7 @@ nav a:hover{
 }
 nav a{
     font-size:20px;
+    font-weight: 400;
     color: inherit;
     text-decoration: none;
 }
@@ -65,7 +67,7 @@ nav a{
     display: flex;
 }
 li{
-    padding: 12px 0 0 0;
+    padding: 4px,0,0,0;
     margin: 32px 16px;
 }
 img{
@@ -98,7 +100,7 @@ img{
 .banner-ga-landingpage{
     margin-top: 96px;
     max-width:100%;
-    height: 464px;
+    height: 512px;
     overflow: hidden;
     background-size: cover;
     box-sizing: border-box;
@@ -108,8 +110,9 @@ img{
     background-position: center;
 }
 /* jp-app */
+/* section banner */
 .banner-box{
-    height: 560px;
+    height: 512px;
     width: auto;
     position: relative;
     z-index: 2;
@@ -117,7 +120,7 @@ img{
 .banner-jp-app{
     margin-top: 96px;
     max-width:100%;
-    height: 464px;
+    height: 512px;
     overflow: hidden;
     background-size: cover;
     box-sizing: border-box;
@@ -126,12 +129,11 @@ img{
     background-repeat: no-repeat;
     background-position: center;
 }
-/* section banner */
 .img-animation{
     width: 337px;
     height: 289px;
     position:absolute;
-    bottom: 40px;
+    bottom: 0px;
     right: 112px;
     z-index: 3;
     animation: updown 2s infinite;
@@ -140,24 +142,24 @@ img{
 }
 @keyframes updown{
 0%{
-    bottom: 40px;
+    bottom: 0px;
 }
 50%{
-    bottom: 64px;
+    bottom: 24px;
 }
 100%{
-    bottom: 40px;
+    bottom: 0px;
 }
 }
 @-webkit-keyframes updown{
     0%{
-        bottom: 40px;
+        bottom: 0px;
     }
     50%{
-        bottom: 64px;
+        bottom: 24px;
     }
     100%{
-        bottom: 40px;
+        bottom: 0px;
     }
 }
  
