@@ -45,6 +45,15 @@ nav{
     background-color:#ffffff;
     z-index: 4;
 }
+.logo{
+    margin: 0 333px 0 auto;
+    background-color: #f0f0f0;
+    background-image: url();
+    display: inline-block;
+    background-repeat: no-repeat;
+    height:96px;
+    width: 96px;
+}
 nav > ul{
     list-style: none;
     height: 96px;
@@ -62,18 +71,57 @@ nav a{
     color: inherit;
     text-decoration: none;
 }
+ul li{
+    padding: 4px,0,0,0;
+    margin: 32px 16px;
+}
+nav ul li ul{
+    display: none;
+    list-style: none;
+    height: auto;
+    width: auto;
+    /* 寬高 auto 隨下面 li 定義 */
+    padding-bottom: 24px;
+    border-radius: 4px;
+    background-color:rgba(255,255,255,0.96);
+}
+ul li ul li{
+    /* border-bottom: 1px solid rgba(0,0,0,0.2); */
+    padding:0 16px;
+    margin: 32px 0 -8px 0;
+    white-space: nowrap;
+    /* 禁止文字換行 */
+}
+nav ul li:hover ul{
+    display:block;
+    position: absolute;
+}
+nav ul li:hover ul li a{
+    display:block;
+    font-size:18px;
+    font-weight: 400;
+    color: inherit;
+    /* inherit 字體顏色會恢復為原本為點擊前的 */
+    text-decoration: none;
+}
+nav ul li:hover ul li a:hover{
+    color:#9BAC64 ;
+    transition: 0.5 ease-in-out;
+}
 .flex-nav{
     margin: 0 auto 0 333px;
     display: flex;
 }
-li{
-    padding: 4px,0,0,0;
-    margin: 32px 16px;
+/*  沒有下拉選單的
+    nav{
+    top: 0px;
+    height: 96px;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    background-color:#ffffff;
+    z-index: 4;
 }
-img{
-    margin: auto;
-    display: block;
-} 
 .logo{
     margin: 0 333px 0 auto;
     background-color: #f0f0f0;
@@ -83,6 +131,31 @@ img{
     height:96px;
     width: 96px;
 }
+nav > ul{
+    list-style: none;
+    height: 96px;
+    margin: 0;
+    background-color: #ffffff;
+    justify-content: space-evenly;
+}
+nav a:hover{
+    color:#9BAC64 ;
+    transition: 0.5 ease-in-out;
+}
+nav a{
+    font-size:20px;
+    font-weight: 400;
+    color: inherit;
+    text-decoration: none;
+}
+li{
+    padding: 4px,0,0,0;
+    margin: 32px 16px;
+}
+.flex-nav{
+    margin: 0 auto 0 333px;
+    display: flex;
+} */
 /* main-banner */
 .banner-index{
     margin-top: 96px;
