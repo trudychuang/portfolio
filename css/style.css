@@ -2,21 +2,25 @@
 *{
     font-family:Arial, Helvetica,'微軟正黑體',sans-serif;
 }
-.pc-title{
+html, body{
+    -webkit-text-size-adjust: none;
+}
+/* pc */
+.title{
    font-size: 48px; 
    font-weight: 500;
    line-height: 72px;
    color:rgba(0,0,0,0.7);
    text-align: left;
 }
-.pc-content-titile{
+.content-titile{
    font-size: 28px; 
    font-weight: 500;
    line-height: 42px;
    color:rgba(0,0,0,0.7);
    text-align: left;
 }
-.pc-content{
+.content{
    font-size: 18px; 
    font-weight: 400;
    line-height: 32px;
@@ -24,7 +28,7 @@
    text-align: left;
    margin: auto;
 }
-.pc-content-center{
+.content-center{
     font-size: 18px; 
     font-weight: 400;
     line-height: 27px;
@@ -311,3 +315,242 @@ li{
     background-color: #ffffff;
 }
 
+
+
+
+
+
+
+
+
+
+/* mobile */
+@media screen and (max-width:1023px){
+    .title{
+        font-size: 32px; 
+        font-weight: 500;
+        line-height: 48px;
+        color:rgba(0,0,0,0.7);
+        text-align: left;
+     }
+     .content-titile{
+        font-size: 24px; 
+        font-weight: 500;
+        line-height: 36px;
+        color:rgba(0,0,0,0.7);
+        text-align: left;
+     }
+     .content{
+        font-size: 18px; 
+        font-weight: 400;
+        line-height: 32px;
+        color:rgba(0,0,0,0.6);
+        text-align: left;
+        margin: auto;
+     }
+     .content-center{
+         font-size: 18px; 
+         font-weight: 400;
+         line-height: 27px;
+         color:rgba(0,0,0,0.6);
+         text-align: center;
+         margin: 4px 0;
+     }
+     .text-space{
+         margin-top: 8px;
+     }
+     /* header */
+     nav{
+         top: 0px;
+         height: 96px;
+         width: 100%;
+         display: flex;
+         position: fixed;
+         background-color:#ffffff;
+         z-index: 4;
+     }
+     .logo{
+         margin: 0 10% 0 auto;
+         background-color: #f0f0f0;
+         background-image: url();
+         display: inline-block;
+         background-repeat: no-repeat;
+         height:96px;
+         width: 96px;
+     }
+     nav > ul{
+         list-style: none;
+         height: 96px;
+         margin: 0;
+         background-color: #ffffff;
+         justify-content: space-evenly;
+     }
+     nav a:hover{
+         color:#9BAC64 ;
+         transition: 0.5 ease-in-out;
+     }
+     nav a{
+         font-size:18px;
+         font-weight: 400;
+         color: inherit;
+         text-decoration: none;
+     }
+     ul li{
+         padding: 4px,0,0,0;
+         margin: 32px 16px;
+     }
+     nav ul li ul{
+         display: none;
+         list-style: none;
+         height: auto;
+         width: auto;
+         /* 寬高 auto 隨下面 li 定義 */
+         padding-bottom: 24px;
+         border-radius: 4px;
+         background-color:rgba(255,255,255,0.96);
+     }
+     ul li ul li{
+         /* border-bottom: 1px solid rgba(0,0,0,0.2); */
+         padding:0 16px;
+         margin: 32px 0 -8px 0;
+         white-space: nowrap;
+         /* 禁止文字換行 */
+     }
+     nav ul li:hover ul{
+         display:block;
+         position: absolute;
+     }
+     nav ul li:hover ul li a{
+         display:block;
+         font-size:18px;
+         font-weight: 400;
+         color: inherit;
+         /* inherit 字體顏色會恢復為原本為點擊前的 */
+         text-decoration: none;
+     }
+     nav ul li:hover ul li a:hover{
+         color:#9BAC64 ;
+         transition: 0.5 ease-in-out;
+     }
+     .flex-nav{
+         margin: 0 auto 0 10%;
+         display: flex;
+     }
+     /* main-banner */
+     .banner-index{
+        margin-top: 96px;
+        width:100%;
+        height: 464px;
+        background-size: cover;
+        box-sizing: border-box;
+        background-image: url();
+        background-color: #e7e7e7;
+        background-repeat: no-repeat;
+        background-position: center;
+        /* background-position: center; 讓圖片置中，左右裁切 */
+    }
+    .banner-ga-landingpage{
+        margin-top: 96px;
+        width:100%;
+        height: 464px;
+        background-size: cover;
+        box-sizing: border-box;
+        background-image: url();
+        background-color: #e7e7e7;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    /* jp-app */
+    /* section banner */
+    .banner-box{
+        height: 464px;
+    }
+    .banner-jp-app{
+        margin-top: 96px;
+        width:100%;
+        height: 464px;
+        background-size: cover;
+        box-sizing: border-box;
+        background-image: url();
+        background-color: #e7e7e7;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .img-animation{
+        display: none;
+    }
+/* section-index*/    
+.work-section{
+    height: 840px;
+    width: 100%;
+    margin: 0 10%;
+    background-color: #ffffff;
+    padding: 56px 0;
+}
+.title-row{
+    width: 100%;
+    height: 72px;
+}
+.flex-row{
+    width: 100%;
+    display: flex;
+    margin: 24px 0;
+}
+/* .item :not(:hover){...} mouseout */
+.item :not(:hover){
+    height: 200px;
+    width: 280px;
+    background-color: #ffffff;
+    margin:0 24px 0 0;
+    transition: 0.3s ease-in-out;
+}
+/* .item a:hover{...} mouseover */
+.item a:hover .work-banner{
+    height: 200px;
+    width: 280px;
+    background-color: #ffffff;
+    margin:0 24px 0 0;
+    opacity: 0.7;
+    transition: 0.5s ease-in-out;
+}
+.item-right :not(:hover){
+    height: 200px;
+    width: 280px;
+    background-color: #ffffff;
+    margin:0;
+    transition: 0.3s ease-in-out;
+}
+.item-right a:hover .work-banner{
+    height: 200px;
+    width: 280px;
+    background-color: #ffffff;
+    margin:0;
+    opacity: 0.7;
+    transition: 0.5s ease-in-out;
+}
+.work-banner{
+    height: 200px;
+    width: 280px;
+    background-color: #ffffff;
+}
+.info{
+    width: 392px;
+    background-color: #ffffff;
+    align-items: center;
+    margin-top: 56px;
+}
+.info-left{
+    width: 392px;
+    background-color: #ffffff;
+    align-items: center;
+    margin:56px 48px 0 0;
+}
+/* footer */
+.footer{
+    width: 100%;
+    height: 160px;
+    padding: 40px auto;
+    background-color: #ffffff;
+}
+
+}
