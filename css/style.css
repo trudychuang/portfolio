@@ -455,7 +455,7 @@ li{
     }
 /* section-index*/    
 .work-section{
-    height: 1120px;
+    height: auto;
     width: 100%;
     margin: 0 auto;
     background-color: #ffffff;
