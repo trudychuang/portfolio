@@ -371,7 +371,7 @@ li{
          z-index: 4;
      }
      .logo{
-         margin: 0 10% 0 auto;
+         margin: 0 auto 0 56px;
          background-color: #f0f0f0;
          background-image: url();
          display: inline-block;
@@ -407,7 +407,7 @@ li{
        display: none;
      }
      .flex-nav{
-         margin: 0 auto 0 10%;
+         margin: 0 56px 0 auto;
          display: flex;
      }
      /* main-banner */
@@ -457,9 +457,9 @@ li{
 .work-section{
     height: 1120px;
     width: 100%;
-    margin: 0 10%;
+    margin: 0 auto;
     background-color: #ffffff;
-    padding: 56px 0;
+    padding: 56px; 
 }
 .title-row{
     width: 100%;
@@ -480,7 +480,7 @@ li{
 /* .item :not(:hover){...} mouseout */
 .item :not(:hover){
     height: auto;
-    width: 80%;
+    width: 100%;
     background-color: #ffffff;
     margin:0px;
     transition: 0.3s ease-in-out;
@@ -488,7 +488,7 @@ li{
 /* .item a:hover{...} mouseover */
 .item a:hover .work-banner{
     height: auto;
-    width: 80%;
+    width: 100%;
     background-color: #ffffff;
     margin:0px;
     opacity: 0.7;
@@ -496,14 +496,14 @@ li{
 }
 .item-right :not(:hover){
     height: auto;
-    width: 80%;
+    width: 100%;
     background-color: #ffffff;
     margin:0px;
     transition: 0.3s ease-in-out;
 }
 .item-right a:hover .work-banner{
     height: auto;
-    width: 80%;
+    width: 100%;
     background-color: #ffffff;
     margin:0px;
     opacity: 0.7;
