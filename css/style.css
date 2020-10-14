@@ -253,7 +253,12 @@ li{
     width: 1000px;
     height: 72px;
 }
-.flex-row{
+.flex-row-1{
+    width: 1000px;
+    display: flex;
+    margin: 40px 0;
+}
+.flex-row-2{
     width: 1000px;
     display: flex;
     margin: 40px 0;
@@ -314,10 +319,6 @@ li{
     padding: 40px auto;
     background-color: #ffffff;
 }
-
-
-
-
 
 
 
@@ -401,36 +402,9 @@ li{
      }
      nav ul li ul{
          display: none;
-         list-style: none;
-         height: auto;
-         width: auto;
-         /* 寬高 auto 隨下面 li 定義 */
-         padding-bottom: 24px;
-         border-radius: 4px;
-         background-color:rgba(255,255,255,0.96);
      }
      ul li ul li{
-         /* border-bottom: 1px solid rgba(0,0,0,0.2); */
-         padding:0 16px;
-         margin: 32px 0 -8px 0;
-         white-space: nowrap;
-         /* 禁止文字換行 */
-     }
-     nav ul li:hover ul{
-         display:block;
-         position: absolute;
-     }
-     nav ul li:hover ul li a{
-         display:block;
-         font-size:18px;
-         font-weight: 400;
-         color: inherit;
-         /* inherit 字體顏色會恢復為原本為點擊前的 */
-         text-decoration: none;
-     }
-     nav ul li:hover ul li a:hover{
-         color:#9BAC64 ;
-         transition: 0.5 ease-in-out;
+       display: none;
      }
      .flex-nav{
          margin: 0 auto 0 10%;
@@ -481,7 +455,7 @@ li{
     }
 /* section-index*/    
 .work-section{
-    height: 840px;
+    height: 1120px;
     width: 100%;
     margin: 0 10%;
     background-color: #ffffff;
@@ -491,59 +465,66 @@ li{
     width: 100%;
     height: 72px;
 }
-.flex-row{
+.flex-row-1{
     width: 100%;
     display: flex;
-    margin: 24px 0;
+    flex-wrap: wrap;
+    margin: 32px 0;
+}
+.flex-row-2{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    margin: 32px 0;
 }
 /* .item :not(:hover){...} mouseout */
 .item :not(:hover){
-    height: 200px;
-    width: 280px;
+    height: auto;
+    width: 80%;
     background-color: #ffffff;
-    margin:0 24px 0 0;
+    margin:0px;
     transition: 0.3s ease-in-out;
 }
 /* .item a:hover{...} mouseover */
 .item a:hover .work-banner{
-    height: 200px;
-    width: 280px;
+    height: auto;
+    width: 80%;
     background-color: #ffffff;
-    margin:0 24px 0 0;
+    margin:0px;
     opacity: 0.7;
     transition: 0.5s ease-in-out;
 }
 .item-right :not(:hover){
-    height: 200px;
-    width: 280px;
+    height: auto;
+    width: 80%;
     background-color: #ffffff;
-    margin:0;
+    margin:0px;
     transition: 0.3s ease-in-out;
 }
 .item-right a:hover .work-banner{
-    height: 200px;
-    width: 280px;
+    height: auto;
+    width: 80%;
     background-color: #ffffff;
-    margin:0;
+    margin:0px;
     opacity: 0.7;
     transition: 0.5s ease-in-out;
 }
 .work-banner{
-    height: 200px;
-    width: 280px;
+    height: inherit;
+    width: inherit;
     background-color: #ffffff;
 }
 .info{
-    width: 392px;
+    width: 100%;
     background-color: #ffffff;
     align-items: center;
-    margin-top: 56px;
+    margin-top: 16px;
 }
 .info-left{
-    width: 392px;
+    width: 100%;
     background-color: #ffffff;
     align-items: center;
-    margin:56px 48px 0 0;
+    margin:16px;
 }
 /* footer */
 .footer{
