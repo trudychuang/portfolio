@@ -173,7 +173,7 @@ li{
 .banner-index{
     margin-top: 96px;
     max-width:100%;
-    height: 480px;
+    height: 85vh;
     overflow: hidden;
     background-size: cover;
     box-sizing: border-box;
@@ -438,7 +438,7 @@ li{
      .banner-index{
         margin-top: 96px;
         width:100%;
-        height: 480px;
+        height: 512px;
         background-size: cover;
         box-sizing: border-box;
         background-image: url();
