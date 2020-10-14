@@ -1,2 +1,2 @@
-# protfolio
-UIUX protfolio
+# portfolio
+UIUX portfolio
