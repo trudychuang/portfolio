@@ -371,7 +371,7 @@ li{
          z-index: 4;
      }
      .logo{
-         margin: 0 auto 0 56px;
+         margin: 0 auto 0 16px;
          background-color: #f0f0f0;
          background-image: url();
          display: inline-block;
@@ -407,7 +407,7 @@ li{
        display: none;
      }
      .flex-nav{
-         margin: 0 56px 0 auto;
+         margin: 0 16px 0 auto;
          display: flex;
      }
      /* main-banner */
@@ -459,7 +459,7 @@ li{
     width: 100%;
     margin: 0 auto;
     background-color: #ffffff;
-    padding: 56px; 
+    padding: 56px 16px; 
 }
 .title-row{
     width: 100%;
@@ -469,13 +469,13 @@ li{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    margin: 32px 0;
+    margin: 40px 0;
 }
 .flex-row-2{
     width: 100%;
     display: flex;
     flex-wrap: wrap-reverse;
-    margin: 32px 0;
+    margin: 40px 0;
 }
 /* .item :not(:hover){...} mouseout */
 .item :not(:hover){
@@ -524,7 +524,7 @@ li{
     width: 100%;
     background-color: #ffffff;
     align-items: center;
-    margin:16px;
+    margin-top: 16px;
 }
 /* footer */
 .footer{
