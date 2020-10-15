@@ -554,12 +554,11 @@ li{
     margin: 40px 0 0 0;
 }
 /* .item :not(:hover){...} mouseout */
-.item :not(:hover){
+.item {
     height: auto;
     width: 100%;
     background-color:#ffffff;
     margin:0px;
-    transition: 0.3s ease-in-out;
 }
 /* .item a:hover{...} mouseover */
 .item a:hover .work-banner{
@@ -568,27 +567,25 @@ li{
     background-color: #ffffff;
     margin:0px;
     opacity: 0.7;
-    transition: 0.5s ease-in-out;
 }
-.item-right :not(:hover){
+.item-right {
     height: auto;
     width: 100%;
     background-color: #ffffff;
     margin:0px;
-    transition: 0.3s ease-in-out;
 }
 .item-right a:hover .work-banner{
-    height: auto;
+    height: auto; 
     width: 100%;
     background-color: #ffffff;
     margin:0px;
     opacity: 0.7;
-    transition: 0.5s ease-in-out;
 }
 .work-banner{
-    height: inherit;
-    width: inherit;
+    height: auto; 
+    width: 100%;
     background-color: #ffffff;
+    transition: 0.5s ease-in-out;
 }
 .info{
     width: 100%;
