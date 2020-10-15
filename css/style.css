@@ -60,12 +60,14 @@ nav{
 }
 .logo{
     margin: 0 333px 0 auto;
-    background-color: #f0f0f0;
-    background-image: url();
+    background-color: #ffffff;
+    background-image: url(../img/logo.png);
     display: inline-block;
     background-repeat: no-repeat;
     height:96px;
     width: 96px;
+    background-size:contain ;
+    /* background-size:contain 讓圖片放大或縮小至完整放入容器 */
 }
 nav > ul{
     list-style: none;
@@ -264,6 +266,22 @@ li{
     background-repeat: no-repeat;
     background-position: center;
 }
+/* no rwd */
+.banner-norwd-mobile{
+    max-width:100%;
+    height: 512px;
+    overflow: hidden;
+    background-size: cover;
+    box-sizing: border-box;
+    background-image: url();
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+
 
 /* section-index*/
 .work-section{
@@ -396,12 +414,14 @@ li{
      }
      .logo{
          margin: 0 auto 0 16px;
-         background-color: #f0f0f0;
-         background-image: url();
+         background-color: #ffffff;
+         background-image: url(../img/logo.png);
          display: inline-block;
          background-repeat: no-repeat;
          height:96px;
          width: 96px;
+         background-size:contain ;
+         /* background-size:contain 讓圖片放大或縮小至完整放入容器 */
      }
      nav > ul{
          list-style: none;
@@ -491,6 +511,24 @@ li{
     background-repeat: no-repeat;
     background-position: center;
 }
+/* no rwd */
+.banner-norwd-mobile{
+    margin-top: 80px;
+    max-width:100%;
+    height: 512px;
+    overflow: hidden;
+    background-size: cover;
+    box-sizing: border-box;
+    background-image: url(../img/banner-norwd-mobile.png);
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+
+
 /* section-index*/    
 .work-section{
     height: auto;
