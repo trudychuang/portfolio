@@ -57,6 +57,7 @@ nav{
     position: fixed;
     background-color:#ffffff;
     z-index: 4;
+    box-shadow: 0 1px 10px 0 rgba(0,0,0,.1);
 }
 .logo{
     margin: 0 333px 0 auto;
@@ -78,17 +79,17 @@ nav > ul{
 }
 nav a:hover{
     color:#9BAC64 ;
-    transition: 0.5 ease-in-out;
 }
 nav a{
     font-size:20px;
     font-weight: 400;
     color: inherit;
     text-decoration: none;
+    transition: 0.5 ease-in-out
 }
 ul li{
     padding: 4px,0,0,0;
-    margin: 32px 16px;
+    margin: 36px 16px 32px 16px;
 }
 nav ul li ul{
     display: none;
@@ -118,10 +119,10 @@ nav ul li:hover ul li a{
     color: inherit;
     /* inherit 字體顏色會恢復為原本為點擊前的 */
     text-decoration: none;
+    transition: 0.5 ease-in-out;
 }
 nav ul li:hover ul li a:hover{
     color:#9BAC64 ;
-    transition: 0.5 ease-in-out;
 }
 .flex-nav{
     margin: 0 auto 0 333px;
@@ -229,15 +230,15 @@ li{
 }
 }
 @-webkit-keyframes updown{
-    0%{
-        bottom: 0px;
-    }
-    50%{
-        bottom: 24px;
-    }
-    100%{
-        bottom: 0px;
-    }
+0%{
+    bottom: 0px;
+}
+50%{
+    bottom: 24px;
+}
+100%{
+    bottom: 0px;
+}
 }
 
 /* web-ga */
@@ -306,12 +307,11 @@ li{
     margin: 40px 0;
 }
 /* .item :not(:hover){...} mouseout */
-.item :not(:hover){
+.item {
     height: 400px;
     width: 560px;
     background-color: #ffffff;
     margin:0 48px 0 0;
-    transition: 0.3s ease-in-out;
 }
 /* .item a:hover{...} mouseover */
 .item a:hover .work-banner{
@@ -320,14 +320,12 @@ li{
     background-color: #ffffff;
     margin:0 48px 0 0;
     opacity: 0.7;
-    transition: 0.5s ease-in-out;
 }
-.item-right :not(:hover){
+.item-right{
     height: 400px;
     width: 560px;
     background-color: #ffffff;
     margin:0;
-    transition: 0.3s ease-in-out;
 }
 .item-right a:hover .work-banner{
     height: 400px;
@@ -335,12 +333,13 @@ li{
     background-color: #ffffff;
     margin:0;
     opacity: 0.7;
-    transition: 0.5s ease-in-out;
 }
 .work-banner{
     height: 400px;
     width: 560px;
     background-color: #ffffff;
+    transition: 0.5s ease-in-out;
+    /* transition for pure class eg. normal -> hover */
 }
 .info{
     width: 392px;
@@ -411,6 +410,7 @@ li{
          position: fixed;
          background-color:#ffffff;
          z-index: 4;
+         box-shadow: 0 1px 10px 0 rgba(0,0,0,.1);
      }
      .logo{
          margin: 0 auto 0 16px;
@@ -442,7 +442,7 @@ li{
      }
      ul li{
          padding: 4px,0,0,0;
-         margin: 32px 16px;
+         margin: 40px 16px 32px 16px;
      }
      nav ul li ul{
          display: none;
