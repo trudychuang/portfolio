@@ -7,6 +7,7 @@
     <title>Trudy's portfolio</title>
     <link href="./css/reset.css" rel="stylesheet" type="text/css">
     <link href="./css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <style>
     </style>
 </head>
@@ -50,7 +51,7 @@
     <!-- section1 -->
     <div class="work-section">
         <div class="title title-row">Works</div>
-        <div class="flex-row-1">
+        <div class="flex-row-1" data-aos="fade-up" data-aos-duration="1000">
             <div class="item">
                 <a href="appjp.html">
                 <img class="work-banner" src="./img/index-2.png" alt="日文學習 app">
@@ -62,7 +63,7 @@
                 <div class="content text-space">拉拉啦啦啦啦啦啦</div>
             </div>  
         </div>
-        <div class="flex-row-2">
+        <div class="flex-row-2" data-aos="fade-up" data-aos-duration="1000">
                 <div class="info-left">
                         <div class="content-title">文法課程 Landing page</div>
                         <div class="title">玩轉文法</div>
@@ -82,5 +83,10 @@
         <br>
         <p class="content-center-16">&copy; 2020 TrudyChuang</p>
     </footer>
+    <!-- javascript -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
 </body>
 </html>
