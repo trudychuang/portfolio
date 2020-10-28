@@ -202,7 +202,7 @@ li{
 .banner-index{
     margin-top: 96px;
     max-width:100%;
-    height: 85vh;
+    height: 90vh;
     overflow: hidden;
     background-size: cover;
     box-sizing: border-box;
@@ -337,7 +337,7 @@ li{
 
 /* section-index*/
 .work-section{
-    height: 1120px;
+    height: 1150px;
     width: 1000px;
     margin: auto;
     background-color: #ffffff;
@@ -350,12 +350,12 @@ li{
 .flex-row-1{
     width: 1000px;
     display: flex;
-    margin: 40px 0;
+    margin: 80px 0 40px 0;
 }
 .flex-row-2{
     width: 1000px;
     display: flex;
-    margin: 40px 0;
+    margin: 80px 0 40px 0;
 }
 /* .item :not(:hover){...} mouseout */
 .item {
@@ -363,6 +363,13 @@ li{
     width: 560px;
     background-color: #ffffff;
     margin:0 48px 0 0;
+}
+.work-banner{
+    height: 400px;
+    width: 560px;
+    background-color: #ffffff;
+    transition: 0.5s ease-in-out;
+    /* transition for pure class eg. normal -> hover */
 }
 /* .item a:hover{...} mouseover */
 .item a:hover .work-banner{
@@ -384,13 +391,6 @@ li{
     background-color: #ffffff;
     margin:0;
     opacity: 0.7;
-}
-.work-banner{
-    height: 400px;
-    width: 560px;
-    background-color: #ffffff;
-    transition: 0.5s ease-in-out;
-    /* transition for pure class eg. normal -> hover */
 }
 .info{
     width: 392px;
