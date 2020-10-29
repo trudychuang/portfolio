@@ -504,6 +504,7 @@ a:hover .icon{
 /* mobile */
 @media screen and (max-width:1023px){
     .title-banner{
+        width: auto;
         font-size: 32px; 
         font-weight: 600;
         line-height: 48px;
@@ -611,6 +612,7 @@ a:hover .icon{
         background-position: center;
          /* background-position: center; 讓圖片置中，左右裁切 */
         padding-left: 16px;
+        padding-right: 16px;
         margin-top: 96px;
         /* margin-top: 96px;for header height:96px; */
     }
