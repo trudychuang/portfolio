@@ -41,7 +41,7 @@ html, body{
  }
  .title-webtheme{
     font-size: 48px; 
-    font-weight: 500;
+    font-weight: 600;
     line-height: 72px;
     color:#1E769B;
     text-align: left;
@@ -439,7 +439,7 @@ li{
 }
 .link .content-link{
     width: 144px;
-    margin:0;
+    margin:56px 0;
 }
 .icon{
     width: 24px;
