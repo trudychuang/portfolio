@@ -41,7 +41,7 @@ html, body{
  }
  .title-webtheme{
     font-size: 48px; 
-    font-weight: 600;
+    font-weight: 500;
     line-height: 72px;
     color:#1E769B;
     text-align: left;
@@ -65,22 +65,14 @@ html, body{
    background-color: #fdffda;
    padding: 8px 16px;
 }
-.content-18{
+.content{
    font-size: 18px; 
    font-weight: 400;
    line-height: 32px;
-   color:rgba(0,0,0,0.8);
+   color:rgba(0,0,0,0.9);
    text-align: left;
    margin: auto;
 }
-.content-16{
-    font-size: 16px; 
-    font-weight: 400;
-    line-height: 27px;
-    color:rgba(0,0,0,0.8);
-    text-align: left;
-    margin: auto;
- }
 .content-link{
     font-size: 18px; 
     font-weight: 400;
@@ -273,6 +265,7 @@ li{
     background-size: cover;
     box-sizing: border-box;
     background-image: url(../img/banner-jp-app.png);
+    background-color: #ffffff;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -460,19 +453,6 @@ a:hover .icon{
     transform: translate(20%, 0);
 }
 /* section appjp */
-.bg-circle{
-    width: 1200px;
-    height: 1200px;
-    border-radius: 999em;
-    background-color: rgba(243,248,237,0.6);
-    overflow: hidden;
-    position: fixed;
-    top: 160px;
-    left: 40%;
-}
-.work-section-pc{
-    z-index: 3;
-}
 .work-section-appjp-s1{
     height: 320px;
     width: 1000px;
@@ -481,252 +461,27 @@ a:hover .icon{
     padding: 56px 0;
 }
 .work-section-appjp-s2{
-    height: 720px;
+    height: 240px;
     width: 1000px;
     margin: auto;
     background-color: #ffffff;
     padding: 56px 0;
 }
-.work-section-appjp-s2 .image{
-    margin-top: 40px;
-    width: 1000px;
-    height: 440px;
-    background-image: url(../img/app_jp_1.png);
-    background-size: contain;
-}
-.work-section-appjp-s3{
-    height: 1096px;
+/* section webga */
+.work-section-webga-s1{
+    height: 320px;
     width: 1000px;
     margin: auto;
     background-color: #ffffff;
     padding: 56px 0;
 }
-.work-section-appjp-s3 .image{
-    margin-top: 40px;
-    width: 1000px;
-    height: 832px;
-    background-image: url(../img/app_jp_2.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-.work-section-appjp-s4{
-    height: 2280px;
+.work-section-webga-s2{
+    height: 240px;
     width: 1000px;
     margin: auto;
     background-color: #ffffff;
     padding: 56px 0;
 }
-.work-section-appjp-s4 .image{
-    margin-top: 40px;
-    width: 1000px;
-    height: 2010px;
-    background-image: url(../img/app_jp_3.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-.work-section-appjp-s5{
-    height: 1788px;
-    width: 1000px;
-    margin: auto;
-    background-color: #ffffff;
-    padding: 56px 0;
-}
-.work-section-appjp-s5 .image{
-    margin-top: 40px;
-    width: 1000px;
-    height: 1447px;
-    background-image: url(../img/app_jp_4.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-.work-section-appjp-s6{
-    height: 3000px;
-    width: 1000px;
-    margin: auto;
-    background-color: #ffffff;
-    padding: 56px 0;
-}
-.work-section-appjp-s6 .image{
-    margin-top: 40px;
-    width: 1000px;
-    height: 2640px;
-    background-image: url(../img/app_jp_5.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-/* section graphyga */
-.work-section-graphyga-s1{
-    height: 656px;
-    width: 1000px;
-    margin: auto;
-    background-color: #ffffff;
-    padding: 56px 0;
-}
-.work-section-graphyga-s1 .image{
-    margin-top: 40px;
-    width: 1000px;
-    height: 265px;
-    background-image: url(../img/graphy_ga_1.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-.work-section-graphyga-s2{
-    height: 440px;
-    width: 1000px;
-    margin: auto;
-    background-color: #ffffff;
-    padding: 56px 0;
-}
-.work-section-graphyga-s2 .image{
-    margin-top: 40px;
-    width: 1000px;
-    height: 184px;
-    background-image: url(../img/graphy_ga_2.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-.work-section-graphyga-s3{
-    height: 780px;
-    width: 1000px;
-    margin: auto;
-    background-color: #ffffff;
-    padding: 56px 0;
-}
-.work-section-graphyga-s3 .image{
-    margin-top: 40px;
-    width: 1000px;
-    height: 520px;
-    background-image: url(../img/graphy_ga_3.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-.work-section-graphyga-s4{
-    height: 1056px;
-    width: 1000px;
-    margin: auto;
-    background-color: #ffffff;
-    padding: 56px 0;
-}
-.work-section-graphyga-s4 .image{
-    margin-top: 40px;
-    width: 1000px;
-    height: 720px;
-    background-image: url(../img/graphy_ga_4.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-.work-section-graphyga-s5{
-    height: 992px;
-    width: 1000px;
-    margin: auto;
-    background-color: #ffffff;
-    padding: 56px 0;
-}
-.work-section-graphyga-s5 .image{
-    margin-top: 40px;
-    width: 1000px;
-    height: 720px;
-    background-image: url(../img/graphy_ga_5.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-/* section graphyjp */
-.work-section-graphyjp-s1{
-    height: 640px;
-    width: 1000px;
-    margin: auto;
-    background-color: #ffffff;
-    padding: 56px 0;
-}
-.work-section-graphyjp-s1 .image{
-    margin-top: 40px;
-    width: 1000px;
-    height: 272px;
-    background-image: url(../img/graphy_jp_1.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-.work-section-graphyjp-s2{
-    height: 440px;
-    width: 1000px;
-    margin: auto;
-    background-color: #ffffff;
-    padding: 56px 0;
-}
-.work-section-graphyjp-s2 .image{
-    margin-top: 40px;
-    width: 1000px;
-    height: 184px;
-    background-image: url(../img/graphy_jp_2.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-.work-section-graphyjp-s3{
-    height: 736px;
-    width: 1000px;
-    margin: auto;
-    background-color: #ffffff;
-    padding: 56px 0;
-}
-.work-section-graphyjp-s3 .image{
-    margin-top: 40px;
-    width: 1000px;
-    height: 480px;
-    background-image: url(../img/graphy_jp_3.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-.work-section-graphyjp-s4{
-    height: 440px;
-    width: 1000px;
-    margin: auto;
-    background-color: #ffffff;
-    padding: 56px 0;
-}
-.work-section-graphyjp-s4 .image{
-    margin-top: 40px;
-    width: 1000px;
-    height: 176px;
-    background-image: url(../img/graphy_jp_4.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-.work-section-graphyjp-s5{
-    height: 856px;
-    width: 1000px;
-    margin: auto;
-    background-color: #ffffff;
-    padding: 56px 0;
-}
-.work-section-graphyjp-s5 .image{
-    margin-top: 40px;
-    width: 1000px;
-    height: 592px;
-    background-image: url(../img/graphy_jp_5.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-.work-section-graphyjp-s6{
-    height: 760px;
-    width: 1000px;
-    margin: auto;
-    background-color: #ffffff;
-    padding: 56px 0;
-}
-.work-section-graphyjp-s6 .image{
-    margin-top: 40px;
-    width: 1000px;
-    height: 496px;
-    background-image: url(../img/graphy_jp_6.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-
-
-
-
-
 /* no rwd */
 .banner-norwd-mobile{
     max-width:100%;
