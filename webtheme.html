@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Trudy-web-designtheme</title>
     <link href="./css/reset.css" rel="stylesheet" type="text/css">
-    <link href="./css/style.css" rel="stylesheet" type="text/css">
+    <link href="./css/style.css?v=1.0.0" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
 </head>
 <body>
     <nav>
@@ -32,19 +33,41 @@
     <!-- section -->
     <div class="work-section-pc">
             <!-- s1 -->
-            <div class="work-section-webga-s1">
-                <div class="title-webtheme title-row">Goal</div>
-                <div class="content-18">明確區分六個英文主題課程（托福、多益金色、旅遊生活、多益藍色、商用、雅思），依不同主題呈現其特點，並同時強調共有的學習系統特色。
+            <div class="work-section-webtheme-s1">
+                <div class="title-webtheme title-row" data-aos="fade-right" data-aos-duration="1000">Goal</div>
+                <div class="content-16">
+                        ・取代原本在 google site 的主題介紹網站，建立在希平方官網內，避免流失訪客，課程都在官網內查詢。
+                        <br>・整理資訊架構，將 6 個主題更有效率地在一頁介紹頁裡呈現。
+                        <br>・明確區分 6 個英文主題課程（托福、多益金色、旅遊生活、多益藍色、商用、雅思），
+                        <br>&emsp;依不同主題呈現其特點，並同時強調共有的攻其不背學習系統特色。
                 </div>
             </div>
             <!-- s2 -->
-            <div class="work-section-webga-s2">
-                    <div class="title-webtheme title-row">UI Overviews</div>
-                    <div class="content-18">...Contact me to know more!</div>
+            <div class="work-section-webtheme-s2">
+                    <div class="title-webtheme title-row" data-aos="fade-right" data-aos-duration="1000">Before - Sitemap</div>
+                    <div class="content-16">
+                            原本建立在 google site 的主題課程問題點分析：
+                            <br>・網站重複資訊太高、內容雜亂。
+                            <br>・查看各個主題介紹頁需要另開分頁，從進入主頁到購買至少需跳轉三頁面，每跳轉一次就可能流失訪問者。
+                            <br>・缺少了托福課程入口。
+                            <br>・系統解說圖片須更新： app 內容是舊版的攻其不背學習系統，現已不適用。
+                            <br>&emsp;（新版攻其不背學習系統在 2019 年初上線。）
+                    </div>
+                    <div class="image"></div>
+            </div>
+            <!-- s3 -->
+            <div class="work-section-webtheme-s3">
+                    <div class="title-webtheme title-row" data-aos="fade-right" data-aos-duration="1000">After</div>
+                    <div class="image"></div>
+            </div>
+            <!-- s4 -->
+            <div class="work-section-webtheme-s4">
+                    <div class="title-webtheme title-row" data-aos="fade-right" data-aos-duration="1000">UI Overviews</div>
+                    <div class="image"></div>
             </div>
             </div>
-    <!-- s1 mobile
-    <div class="banner-norwd-mobile"></div> -->
+    <!-- s1 mobile -->
+    <div class="banner-norwd-mobile"></div>
     
     <!-- footer -->
     <footer class="footer">
@@ -53,5 +76,10 @@
         <br>
         <p class="content-center-16">&copy; 2020 TrudyChuang</p>
     </footer>
+    <!-- javascript -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
 </body>
 </html>

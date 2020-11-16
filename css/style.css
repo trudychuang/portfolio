@@ -49,7 +49,7 @@ html, body{
  }
 .content-title{
    font-size: 20px; 
-   font-weight: 500;
+   font-weight: 400;
    line-height: 42px;
    color:rgba(0,0,0,0.5);
    text-align: left;
@@ -69,10 +69,18 @@ html, body{
    font-size: 18px; 
    font-weight: 400;
    line-height: 32px;
-   color:rgba(0,0,0,0.9);
+   color:rgba(0,0,0,0.8);
    text-align: left;
    margin: auto;
 }
+.content-16{
+    font-size: 16px; 
+    font-weight: 400;
+    line-height: 27px;
+    color:rgba(0,0,0,0.8);
+    text-align: left;
+    margin: auto;
+ }
 .content-link{
     font-size: 18px; 
     font-weight: 400;
@@ -81,9 +89,6 @@ html, body{
     text-align: left;
     margin: auto;
     transition: 0.5 ease-in-out
-}
-.content-link a:hover{
-   color:rgb(94, 116, 24) ;
 }
 .content-center-16{
     font-size: 16px; 
@@ -226,7 +231,7 @@ li{
 /* main-banner */
 .banner-index{
     max-width:100%;
-    height: 90vh;
+    height: 100vh;
     overflow: hidden;
     background-size: cover;
     box-sizing: border-box;
@@ -265,7 +270,6 @@ li{
     background-size: cover;
     box-sizing: border-box;
     background-image: url(../img/banner-jp-app.png);
-    background-color: #ffffff;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -373,7 +377,7 @@ li{
 
 /* section-index*/
 .work-section{
-    height: 1280px;
+    height: 1800px;
     width: auto;
     margin: auto;
     background-color: #F7F9F2;
@@ -453,38 +457,424 @@ a:hover .icon{
     transform: translate(20%, 0);
 }
 /* section appjp */
+.bg-circle{
+    width: 1200px;
+    height: 1200px;
+    border-radius: 999em;
+    background-color: rgba(243,248,237,0.5);
+    overflow: hidden;
+    position: fixed;
+    top: 160px;
+    left: 40%;
+    z-index: -1;
+    /* z-index not working with fixed positioning 
+    set a z-index of -1, for #under positioned -ve z-index appear behind non-positioned #over element
+    https://stackoverflow.com/questions/5218927/z-index-not-working-with-fixed-positioning
+    */
+}
+/* .work-section-pc{
+    z-index: 3;
+}
+/* z-index not working with fixed positioning */
+
 .work-section-appjp-s1{
     height: 320px;
     width: 1000px;
     margin: auto;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     padding: 56px 0;
 }
 .work-section-appjp-s2{
-    height: 240px;
+    height: 720px;
+    width: 1000px;
+    margin: auto;
+    /* background-color: #ffffff; */
+    padding: 56px 0;
+}
+.work-section-appjp-s2 .image{
+    margin-top: 40px;
+    width: 1000px;
+    height: 440px;
+    background-image: url(../img/app_jp_1.png);
+    background-size: contain;
+}
+.work-section-appjp-s3{
+    height: 1096px;
+    width: 1000px;
+    margin: auto;
+    /* background-color: #ffffff; */
+    padding: 56px 0;
+}
+.work-section-appjp-s3 .image{
+    margin-top: 40px;
+    width: 1000px;
+    height: 832px;
+    background-image: url(../img/app_jp_2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.work-section-appjp-s4{
+    height: 2280px;
+    width: 1000px;
+    margin: auto;
+    /* background-color: #ffffff; */
+    padding: 56px 0;
+}
+.work-section-appjp-s4 .image{
+    margin-top: 40px;
+    width: 1000px;
+    height: 2010px;
+    background-image: url(../img/app_jp_3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.work-section-appjp-s5{
+    height: 1788px;
+    width: 1000px;
+    margin: auto;
+    /* background-color: #ffffff; */
+    padding: 56px 0;
+}
+.work-section-appjp-s5 .image{
+    margin-top: 40px;
+    width: 1000px;
+    height: 1447px;
+    background-image: url(../img/app_jp_4.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.image-s7{
+    height: 616px;
+    max-width:100%;
+    background-image: url(../img/app_jp_6.png);
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    background-position: center;
+}
+.work-section-appjp-s6{
+    height: 3000px;
+    width: 1000px;
+    margin: auto;
+    /* background-color: #ffffff; */
+    padding: 56px 0;
+}
+.work-section-appjp-s6 .image{
+    margin-top: 40px;
+    width: 1000px;
+    height: 2640px;
+    background-image: url(../img/app_jp_5.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.work-section-appjp-s8{
+    height: 400px;
+    width: 1000px;
+    margin: auto;
+    /* background-color: #ffffff; */
+    padding: 56px 0;
+}
+/* section graphyga */
+.work-section-graphyga-s1{
+    height: 656px;
     width: 1000px;
     margin: auto;
     background-color: #ffffff;
     padding: 56px 0;
 }
-/* section webga */
+.work-section-graphyga-s1 .image{
+    margin-top: 40px;
+    width: 1000px;
+    height: 265px;
+    background-image: url(../img/graphy_ga_1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.work-section-graphyga-s2{
+    height: 440px;
+    width: 1000px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 56px 0;
+}
+.work-section-graphyga-s2 .image{
+    margin-top: 40px;
+    width: 1000px;
+    height: 184px;
+    background-image: url(../img/graphy_ga_2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.work-section-graphyga-s3{
+    height: 780px;
+    width: 1000px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 56px 0;
+}
+.work-section-graphyga-s3 .image{
+    margin-top: 40px;
+    width: 1000px;
+    height: 520px;
+    background-image: url(../img/graphy_ga_3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.work-section-graphyga-s4{
+    height: 1056px;
+    width: 1000px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 56px 0;
+}
+.work-section-graphyga-s4 .image{
+    margin-top: 40px;
+    width: 1000px;
+    height: 720px;
+    background-image: url(../img/graphy_ga_4.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.work-section-graphyga-s5{
+    height: 992px;
+    width: 1000px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 56px 0;
+}
+.work-section-graphyga-s5 .image{
+    margin-top: 40px;
+    width: 1000px;
+    height: 720px;
+    background-image: url(../img/graphy_ga_5.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+/* section graphyjp */
+.work-section-graphyjp-s1{
+    height: 640px;
+    width: 1000px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 56px 0;
+}
+.work-section-graphyjp-s1 .image{
+    margin-top: 40px;
+    width: 1000px;
+    height: 272px;
+    background-image: url(../img/graphy_jp_1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.work-section-graphyjp-s2{
+    height: 440px;
+    width: 1000px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 56px 0;
+}
+.work-section-graphyjp-s2 .image{
+    margin-top: 40px;
+    width: 1000px;
+    height: 184px;
+    background-image: url(../img/graphy_jp_2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.work-section-graphyjp-s3{
+    height: 736px;
+    width: 1000px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 56px 0;
+}
+.work-section-graphyjp-s3 .image{
+    margin-top: 40px;
+    width: 1000px;
+    height: 480px;
+    background-image: url(../img/graphy_jp_3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.work-section-graphyjp-s4{
+    height: 440px;
+    width: 1000px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 56px 0;
+}
+.work-section-graphyjp-s4 .image{
+    margin-top: 40px;
+    width: 1000px;
+    height: 176px;
+    background-image: url(../img/graphy_jp_4.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.work-section-graphyjp-s5{
+    height: 856px;
+    width: 1000px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 56px 0;
+}
+.work-section-graphyjp-s5 .image{
+    margin-top: 40px;
+    width: 1000px;
+    height: 592px;
+    background-image: url(../img/graphy_jp_5.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.work-section-graphyjp-s6{
+    height: 760px;
+    width: 1000px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 56px 0;
+}
+.work-section-graphyjp-s6 .image{
+    margin-top: 40px;
+    width: 1000px;
+    height: 496px;
+    background-image: url(../img/graphy_jp_6.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+/* web-buy */
+.work-section-webbuy-s1{
+    height: 344px;
+    width: 1000px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 56px 0;
+}
+.work-section-webbuy-s2{
+    height: 1096px;
+    width: 1000px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 56px 0;
+}
+.work-section-webbuy-s2 .image{
+    margin-top: 40px;
+    width: 1000px;
+    height: 824px;
+    background-image: url(../img/web_pay_1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.work-section-webbuy-s3{
+    height: 864px;
+    width: 1000px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 56px 0;
+}
+.work-section-webbuy-s3 .image{
+    margin-top: 40px;
+    width: 1000px;
+    height: 600px;
+    background-image: url(../img/web_pay_2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.work-section-webbuy-s4{
+    height: 1700px;
+    width: 1000px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 56px 0;
+}
+.work-section-webbuy-s4 .image{
+    margin-top: 40px;
+    width: 1000px;
+    height: 1440px;
+    background-image: url(../img/web_pay_3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+/* web-ga */
 .work-section-webga-s1{
-    height: 320px;
+    height: 344px;
     width: 1000px;
     margin: auto;
     background-color: #ffffff;
     padding: 56px 0;
 }
 .work-section-webga-s2{
-    height: 240px;
+    height: 3946px;
     width: 1000px;
     margin: auto;
     background-color: #ffffff;
     padding: 56px 0;
 }
+.work-section-webga-s2 .image{
+    margin-top: 40px;
+    width: 1000px;
+    height: 3680px;
+    background-image: url(../img/web_ga.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+/* web-theme */
+.work-section-webtheme-s1{
+    height: 376px;
+    width: 1000px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 56px 0;
+}
+.work-section-webtheme-s2{
+    height: 1264px;
+    width: 1000px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 56px 0;
+}
+.work-section-webtheme-s2 .image{
+    margin-top: 40px;
+    width: 1000px;
+    height: 800px;
+    background-image: url(../img/web_theme_1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.work-section-webtheme-s3{
+    height: 824px;
+    width: 1000px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 56px 0;
+}
+.work-section-webtheme-s3 .image{
+    margin-top: 40px;
+    width: 1000px;
+    height: 560px;
+    background-image: url(../img/web_theme_2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.work-section-webtheme-s4{
+    height: 4864px;
+    width: 1000px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 56px 0;
+}
+.work-section-webtheme-s4 .image{
+    margin-top: 40px;
+    width: 1000px;
+    height: 4600px;
+    background-image: url(../img/web_theme_3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
 /* no rwd */
-/*  不要有這張圖
-    .banner-norwd-mobile{
+.banner-norwd-mobile{
     max-width:100%;
     height: 0;
     overflow: hidden;
@@ -494,14 +884,19 @@ a:hover .icon{
     background-color: #ffffff;
     background-repeat: no-repeat;
     background-position: center;
-} */
+}
 /* footer */
 .footer{
     width: 100%;
     height: 184px;
-    margin-top: 56px;
+    padding-top: 32px;
     background-color: #ffffff;
 }
+
+
+
+
+
 /* mobile */
 @media screen and (max-width:1023px){
     .title-banner{
@@ -519,23 +914,7 @@ a:hover .icon{
         line-height: 48px;
         color:#71805d;
         text-align: left;
-        /* word-break: all */
-     }
-     .title-appjp{
-        font-size: 32px; 
-        font-weight: 600;
-        line-height: 48px;
-        color:#2F995D;
-        text-align: left;
-        margin-bottom: 40px;
-     }
-     .title-webga{
-        font-size: 32px; 
-        font-weight: 600;
-        line-height: 48px;
-        color:#43a047;
-        text-align: left;
-        margin-bottom: 40px;
+        word-break: all
      }
      .content-title{
         font-size: 20px; 
@@ -544,7 +923,7 @@ a:hover .icon{
         color:rgba(0,0,0,0.5);
         text-align: left;
      }
-     .content-18{
+     .content{
         font-size: 18px; 
         font-weight: 400;
         line-height: 32px;
@@ -635,7 +1014,7 @@ a:hover .icon{
     }
     .container-tag-img{
         height: 480px;
-        margin: 8%;
+        margin: 5% 6%;
     }
     .img-banner-index{
         position: absolute;
@@ -656,7 +1035,7 @@ a:hover .icon{
         background-size: cover;
         box-sizing: border-box;
         background-image: url(../img/banner-jp-app-mobile.png);
-        background-color: #ffffff;
+        background-color: #e7e7e7;
         background-repeat: no-repeat;
         background-position: center;
     }
@@ -700,9 +1079,11 @@ a:hover .icon{
         background-repeat: no-repeat;
         background-position: center;
     }
-    /* .work-section-pc{
-    display: none;
-    } */
+
+
+
+
+
 /* section-index*/    
 .work-section{
     height: auto;
@@ -713,7 +1094,7 @@ a:hover .icon{
 }
 .title-row{
     width: 100%;
-    height: auto;
+    height: 48px;
 }
 .flex-row-1{
     width: 100%;
@@ -767,35 +1148,13 @@ a:hover .icon{
     margin-top: 16px;
 }
 /* section appjp */
-.work-section-appjp-s1{
-    height: auto;
-    width: 100%;
-    margin: 0 auto;
-    background-color: #ffffff;
-    padding: 56px 16px 40px 16px;
+.work-section-pc{
+   display: none;
 }
-.work-section-appjp-s2{
-    height: auto;
-    width: 100%;
-    margin: 0 auto;
-    background-color: #ffffff;
-    padding: 0 16px 56px 16px;
+.bg-circle{
+    display: none;
 }
-/* section webga */
-.work-section-webga-s1{
-    height: auto;
-    width: 100%;
-    margin: 0 auto;
-    background-color: #ffffff;
-    padding: 56px 16px 40px 16px;
-}
-.work-section-webga-s2{
-    height: auto;
-    width: 100%;
-    margin: 0 auto;
-    background-color: #ffffff;
-    padding: 0 16px 56px 16px;
-}
+
 /* footer */
 .footer{
     width: 100%;
