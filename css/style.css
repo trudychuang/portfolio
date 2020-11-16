@@ -999,7 +999,7 @@ a:hover .icon{
      /* main-banner */
      .banner-index{
         width:100%;
-        height: 90vh;
+        height: 85vh;
         background-size: cover;
         box-sizing: border-box;
         background-image: url();
@@ -1063,6 +1063,19 @@ a:hover .icon{
         background-size: cover;
         box-sizing: border-box;
         background-image: url(../img/banner-ga-graphy-mobile.png);
+        background-color: #ffffff;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    /* web-theme */
+    .banner-theme-web{
+        margin-top: 96px;
+        max-width:100%;
+        height: 512px;
+        overflow: hidden;
+        background-size: cover;
+        box-sizing: border-box;
+        background-image: url(../img/banner-theme-web-mobile.png);
         background-color: #ffffff;
         background-repeat: no-repeat;
         background-position: center;
