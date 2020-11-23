@@ -699,19 +699,33 @@ a:hover .icon{
     background-repeat: no-repeat;
 }
 .work-section-graphyjp-s4{
-    height: 440px;
+    height: 784px;
     width: 1000px;
     margin: auto;
     background-color: #ffffff;
     padding: 56px 0;
 }
-.work-section-graphyjp-s4 .image{
+.graphyga-container{
     margin-top: 40px;
     width: 1000px;
-    height: 176px;
-    background-image: url(../img/graphy_jp_4.png);
+    float: left;
+}
+.work-section-graphyjp-s4 .image-ga-a{
+    width: 336px;
+    height: 568px;
+    background-image: url(../img/graphy_jp_4_a.png);
     background-size: contain;
     background-repeat: no-repeat;
+    display: inline-block;
+}
+.work-section-graphyjp-s4 .image-ga-b{
+    width: 320px;
+    height: 568px;
+    background-image: url(../img/graphy_jp_4_b.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-left: 240px;
 }
 .work-section-graphyjp-s5{
     height: 856px;
