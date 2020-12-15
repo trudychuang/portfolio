@@ -571,11 +571,26 @@ a:hover .icon{
     background-repeat: no-repeat;
 }
 .work-section-appjp-s8{
-    height: 400px;
+    height: 360px;
     width: 1000px;
     margin: auto;
     /* background-color: #ffffff; */
     padding: 56px 0;
+}
+.work-section-appjp-s9{
+    height: 320px;
+    width: 1000px;
+    margin: auto;
+    /* background-color: #ffffff; */
+    padding: 56px 0;
+}
+.work-section-appjp-s9 a{
+    font-size: 16px;
+    color: rgba(0,0,0,0.7);
+    text-decoration: none;
+}
+.work-section-appjp-s9 a:hover{
+    color:#9BAC64 ;
 }
 /* section graphyga */
 .work-section-graphyga-s1{
