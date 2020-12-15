@@ -1085,15 +1085,15 @@ a:hover .icon{
         background-repeat: no-repeat;
         background-position: center;
     }
-    /* graphy-ga */
-    .banner-ga-graphy{
+    /* graphy-jp */
+    .banner-jp-graphy{
         margin-top: 96px;
         max-width:100%;
         height: 512px;
         overflow: hidden;
         background-size: cover;
         box-sizing: border-box;
-        background-image: url(../img/banner-ga-graphy-mobile.png);
+        background-image: url(../img/banner-jp-graphy-mobile.png);
         background-color: #ffffff;
         background-repeat: no-repeat;
         background-position: center;
