@@ -348,28 +348,28 @@ li{
     background-repeat: no-repeat;
     background-position: center;
 }
-/* graphy-ga */
-.banner-ga-graphy{
+/* graphic-ga */
+.banner-ga-graphic{
     margin-top: 96px;
     max-width:100%;
     height: 512px;
     overflow: hidden;
     background-size: cover;
     box-sizing: border-box;
-    background-image: url(../img/banner-ga-graphy.png);
+    background-image: url(../img/banner-ga-graphic.png);
     background-color: #ffffff;
     background-repeat: no-repeat;
     background-position: center;
 }
-/* graphy-jp */
-.banner-jp-graphy{
+/* graphic-jp */
+.banner-jp-graphic{
     margin-top: 96px;
     max-width:100%;
     height: 512px;
     overflow: hidden;
     background-size: cover;
     box-sizing: border-box;
-    background-image: url(../img/banner-jp-graphy.png);
+    background-image: url(../img/banner-jp-graphic.png);
     background-color: #ffffff;
     background-repeat: no-repeat;
     background-position: center;
@@ -592,184 +592,184 @@ a:hover .icon{
 .work-section-appjp-s9 a:hover{
     color:#9BAC64 ;
 }
-/* section graphyga */
-.work-section-graphyga-s1{
+/* section graphicga */
+.work-section-graphicga-s1{
     height: 656px;
     width: 1000px;
     margin: auto;
     background-color: #ffffff;
     padding: 56px 0;
 }
-.work-section-graphyga-s1 .image{
+.work-section-graphicga-s1 .image{
     margin-top: 40px;
     width: 1000px;
     height: 265px;
-    background-image: url(../img/graphy_ga_1.png);
+    background-image: url(../img/graphic_ga_1.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
-.work-section-graphyga-s2{
+.work-section-graphicga-s2{
     height: 440px;
     width: 1000px;
     margin: auto;
     background-color: #ffffff;
     padding: 56px 0;
 }
-.work-section-graphyga-s2 .image{
+.work-section-graphicga-s2 .image{
     margin-top: 40px;
     width: 1000px;
     height: 184px;
-    background-image: url(../img/graphy_ga_2.png);
+    background-image: url(../img/graphic_ga_2.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
-.work-section-graphyga-s3{
+.work-section-graphicga-s3{
     height: 864px;
     width: 1000px;
     margin: auto;
     background-color: #ffffff;
     padding: 56px 0;
 }
-.work-section-graphyga-s3 .image{
+.work-section-graphicga-s3 .image{
     margin-top: 40px;
     width: 1000px;
     height: 520px;
-    background-image: url(../img/graphy_ga_3.png);
+    background-image: url(../img/graphic_ga_3.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
-.work-section-graphyga-s4{
+.work-section-graphicga-s4{
     height: 1056px;
     width: 1000px;
     margin: auto;
     background-color: #ffffff;
     padding: 56px 0;
 }
-.work-section-graphyga-s4 .image{
+.work-section-graphicga-s4 .image{
     margin-top: 40px;
     width: 1000px;
     height: 720px;
-    background-image: url(../img/graphy_ga_4.png);
+    background-image: url(../img/graphic_ga_4.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
-.work-section-graphyga-s5{
+.work-section-graphicga-s5{
     height: 992px;
     width: 1000px;
     margin: auto;
     background-color: #ffffff;
     padding: 56px 0;
 }
-.work-section-graphyga-s5 .image{
+.work-section-graphicga-s5 .image{
     margin-top: 40px;
     width: 1000px;
     height: 720px;
-    background-image: url(../img/graphy_ga_5.png);
+    background-image: url(../img/graphic_ga_5.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
-/* section graphyjp */
-.work-section-graphyjp-s1{
+/* section graphicjp */
+.work-section-graphicjp-s1{
     height: 640px;
     width: 1000px;
     margin: auto;
     background-color: #ffffff;
     padding: 56px 0;
 }
-.work-section-graphyjp-s1 .image{
+.work-section-graphicjp-s1 .image{
     margin-top: 40px;
     width: 1000px;
     height: 272px;
-    background-image: url(../img/graphy_jp_1.png);
+    background-image: url(../img/graphic_jp_1.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
-.work-section-graphyjp-s2{
+.work-section-graphicjp-s2{
     height: 440px;
     width: 1000px;
     margin: auto;
     background-color: #ffffff;
     padding: 56px 0;
 }
-.work-section-graphyjp-s2 .image{
+.work-section-graphicjp-s2 .image{
     margin-top: 40px;
     width: 1000px;
     height: 184px;
-    background-image: url(../img/graphy_jp_2.png);
+    background-image: url(../img/graphic_jp_2.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
-.work-section-graphyjp-s3{
+.work-section-graphicjp-s3{
     height: 736px;
     width: 1000px;
     margin: auto;
     background-color: #ffffff;
     padding: 56px 0;
 }
-.work-section-graphyjp-s3 .image{
+.work-section-graphicjp-s3 .image{
     margin-top: 40px;
     width: 1000px;
     height: 480px;
-    background-image: url(../img/graphy_jp_3.png);
+    background-image: url(../img/graphic_jp_3.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
-.work-section-graphyjp-s4{
+.work-section-graphicjp-s4{
     height: 784px;
     width: 1000px;
     margin: auto;
     background-color: #ffffff;
     padding: 56px 0;
 }
-.graphyga-container{
+.graphicga-container{
     margin-top: 40px;
     width: 1000px;
     float: left;
 }
-.work-section-graphyjp-s4 .image-ga-a{
+.work-section-graphicjp-s4 .image-ga-a{
     width: 336px;
     height: 568px;
-    background-image: url(../img/graphy_jp_4_a.png);
+    background-image: url(../img/graphic_jp_4_a.png);
     background-size: contain;
     background-repeat: no-repeat;
     display: inline-block;
 }
-.work-section-graphyjp-s4 .image-ga-b{
+.work-section-graphicjp-s4 .image-ga-b{
     width: 320px;
     height: 568px;
-    background-image: url(../img/graphy_jp_4_b.gif);
+    background-image: url(../img/graphic_jp_4_b.gif);
     background-size: contain;
     background-repeat: no-repeat;
     display: inline-block;
     margin-left: 240px;
 }
-.work-section-graphyjp-s5{
+.work-section-graphicjp-s5{
     height: 856px;
     width: 1000px;
     margin: auto;
     background-color: #ffffff;
     padding: 56px 0;
 }
-.work-section-graphyjp-s5 .image{
+.work-section-graphicjp-s5 .image{
     margin-top: 40px;
     width: 1000px;
     height: 592px;
-    background-image: url(../img/graphy_jp_5.png);
+    background-image: url(../img/graphic_jp_5.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
-.work-section-graphyjp-s6{
+.work-section-graphicjp-s6{
     height: 760px;
     width: 1000px;
     margin: auto;
     background-color: #ffffff;
     padding: 56px 0;
 }
-.work-section-graphyjp-s6 .image{
+.work-section-graphicjp-s6 .image{
     margin-top: 40px;
     width: 1000px;
     height: 496px;
-    background-image: url(../img/graphy_jp_6.png);
+    background-image: url(../img/graphic_jp_6.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -1085,15 +1085,15 @@ a:hover .icon{
         background-repeat: no-repeat;
         background-position: center;
     }
-    /* graphy-jp */
-    .banner-jp-graphy{
+    /* graphic-jp */
+    .banner-jp-graphic{
         margin-top: 96px;
         max-width:100%;
         height: 512px;
         overflow: hidden;
         background-size: cover;
         box-sizing: border-box;
-        background-image: url(../img/banner-jp-graphy-mobile.png);
+        background-image: url(../img/banner-jp-graphic-mobile.png);
         background-color: #ffffff;
         background-repeat: no-repeat;
         background-position: center;
