@@ -237,7 +237,7 @@ li{
     overflow: hidden;
     background-size: cover;
     box-sizing: border-box;
-    background-image: url();
+    background-image: url(../img/img-banner-index-bg.png);
     background-color:#E1ECBC;
     background-repeat: no-repeat;
     background-position: center;
@@ -246,8 +246,7 @@ li{
 .container-tag-img{
     width: 400px;
     height: 330px;
-    margin: 0 60%;
-    overflow: hidden;
+    margin: -64px 60% 0 60%;
 }
 .img-banner-index{
     position: absolute;
@@ -1033,7 +1032,7 @@ a:hover .icon{
         height: 85vh;
         background-size: cover;
         box-sizing: border-box;
-        background-image: url();
+        background-image: url(../img/banner-index-bg-mobile.png);
         background-color: #E1ECBC;
         background-repeat: no-repeat;
         background-position: center;
